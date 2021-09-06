@@ -1,0 +1,63 @@
+@media(max-width:575px) and (min-width:0px){
+    .navbar-light .nav-item .nav-link{
+        margin-left: 0px;
+        display: inline-block;
+        margin-bottom: 17px;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .phone_bg{
+        display: none;
+    }
+    .phone_text{
+        text-align: center;
+        margin: auto;
+    }
+    .phone_text h1{
+        font-size: 34px;
+    }
+    .phone_text h5{
+        font-size: 14px;
+    }
+    .pricing_section {
+        margin-bottom: 15px;
+    }
+    .contact_icon i {
+        font-size: 27px;
+    }
+    .contact_icon{
+        font-size: 15px;
+    }
+    .contact_form {
+        width: 82%;
+    }
+    .contact_form form input[type="submit"] {
+        font-size: 14px;
+        padding: 9px 16px;
+    }
+}
+@media(max-width:767px) and (min-width:0px){
+    .phone_text h1 {
+        font-size: 37px;
+    }
+    .phone_text h5 {
+        font-size: 14px;
+    }
+    .btn_download {
+        margin-bottom: 20px;
+    }
+    .contact_form {
+        width: 80%;
+    }
+    
+}
+@media(max-width:425px) and (min-width:0px){
+    .btn_download {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .contact_icon{
+        margin: auto;
+    }
+}
